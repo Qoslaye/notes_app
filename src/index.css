@@ -1,0 +1,51 @@
+/* index.css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #1e293b;
+  --text-color: #ffffff;
+}
+
+html.light {
+  --bg-color: #ffffff;
+  --text-color: #1e293b;
+}
+
+html.dark {
+  --bg-color: #1e293b;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.bg-zinc-900 {
+  background-color: var(--bg-color);
+}
+
+.text-zinc-100, .text-white, .text-slate-300, .text-gray-200, .text-gray-300, .text-gray-400 {
+  color: var(--text-color);
+}
+
+.bg-zinc-600 {
+  background-color: var(--bg-color);
+}
+
+.bg-purple-700 {
+  background-color: #6b21a8;
+}
+
+.text-zinc-100 {
+  color: #e5e7eb;
+}
