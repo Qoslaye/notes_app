@@ -1,3 +1,4 @@
+// EditNote.jsx
 import { useState } from 'react';
 import { IoIosArrowBack } from 'react-icons/io';
 import { RiDeleteBin6Line } from 'react-icons/ri';
