@@ -8,8 +8,8 @@ Welcome to our Notes App project! This application is a collaborative effort by 
 
 This project was developed by the following students:
 
-- **Anisa Hussein**
 - **Anab Shire**
+- **Anisa Hussein**
 - **Rowda Abshir**
 - **Abdi Shakur**
 
