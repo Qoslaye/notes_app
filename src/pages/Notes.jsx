@@ -46,7 +46,7 @@ const Notes = ({ notes, theme, toggleTheme }) => { // accept theme and toggleThe
 
             <div className='notes-container w-full flex flex-wrap justify-start items-start p-5 gap-4'>
                 {filterNotes.length === 0 ?
-                    <h3 className='text-gray-400 mx-auto py-10'>There is no note.</h3>
+                    <h3 className='text-gray-400 mx-auto py-10'>No note Available Now.</h3>
                     :
                     filterNotes.map((note) => (
                         <NoteItem key={note.id} note={note} />
